@@ -2,11 +2,13 @@
     <div class="prog-bar">
         <Progress 
         :value='percentage'
-        :radius='55'
+        :radius='100'
         :transitionDuration='duration'
+        strokeColor="#e9e500"
         >
             <template>
-                <h4>{{skillName}}</h4>
+                <h2>{{skillName}}</h2>
+                <h3>{{percentage}}%</h3>
             </template>
         </Progress>
     </div>

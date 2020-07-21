@@ -60,6 +60,6 @@ export default {
 
 .side-profile .social-links a:hover,
 .side-profile .social-links a:focus{
-    color: rgb(233, 229, 0);
+    color: #e9e500;
 }
 </style>

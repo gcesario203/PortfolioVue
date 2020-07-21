@@ -8,14 +8,33 @@
         <br />No momento procuro uma vaga de estágio para me auxiliar a crescer na área e alavancar meu desenvolvimento profissional.
       </p>
     </div>
+    <h1>Projetos</h1>
   </div>
 </template>
 
 <script>
+
 export default {
   name: "SobreMim"
 };
 </script>
 
 <style>
+.bio {
+  padding: 0px 60px;
+  display: flex;
+  flex-direction: column;
+}
+
+.bio h1{
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 10vh;
+}
+
+.bio .content-text{
+    font-size: 1.5rem;
+    line-height: 3rem;
+    margin-bottom: 10vh;
+}
 </style>
