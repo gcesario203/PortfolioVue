@@ -10,6 +10,11 @@
         <i class="fa fa-code fa-2x"></i>
       </router-link>
     </li>
+  <li>
+      <router-link to="/projetos">
+        <i class="fa fa-github fa-2x"></i>
+      </router-link>
+    </li>
   </div>
 </template>
 
@@ -23,22 +28,20 @@ export default {
 .navigator {
   grid-area: Navigator;
   background-color: rgb(46, 44, 44);
-  width: 100%;
-  height: 100%;
   display: flex;
   flex-direction: column;
+  align-items: center;
+  width: 100%;
+  justify-content: space-around;
 }
 
 .navigator a{
-    position: relative;
-    left: 0.5vw;
-    text-align: center;
     color: white;
     transition: 500ms;
 }
 
-.navigator a:hover,
-.navigator a:focus{
+.navigator a:focus,
+.navigator a:hover{
     color: #e9e500;
 }
 </style>

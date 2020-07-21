@@ -3,6 +3,7 @@ import VueRouter from 'vue-router'
 
 import Skills from '../components/content/Skills'
 import SobreMim from '../components/content/SobreMim'
+import Projetos from '../components/content/Projetos'
 
 Vue.use(VueRouter)
 
@@ -14,6 +15,10 @@ const routes = [{
     name:'SobreMim',
     path:'/sobremim',
     component:SobreMim
+},{
+    name:'Projects',
+    path:'/projetos',
+    component:Projetos
 }]
 
 const router = new VueRouter({

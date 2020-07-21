@@ -28,7 +28,7 @@ export default {
   #app{
     display: grid;
     height: 100vh;
-    grid-template-columns: 350px 1fr 50px;
+    grid-template-columns: 350px 1fr 60px;
     grid-template-areas:
       "SideProfile Content Navigator" 
     ;
