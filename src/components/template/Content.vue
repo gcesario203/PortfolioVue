@@ -1,17 +1,21 @@
 <template>
   <div class="content">
-      <h1>Eu fico no centro</h1>
+      <router-view></router-view>
   </div>
 </template>
 
 <script>
 export default {
-    name:'Content'
-}
+  name: "Content"
+};
 </script>
 
 <style>
-    .content{
-        grid-area: Content;
-    }
+.content {
+  grid-area: Content;
+  overflow-y: auto;
+  padding: 70px;
+  background-color: rgb(65, 60, 60);
+  color: white;
+}
 </style>
