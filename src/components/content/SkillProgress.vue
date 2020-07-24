@@ -8,7 +8,6 @@
         >
             <template>
                 <h2>{{skillName}}</h2>
-                <h3>{{percentage}}%</h3>
             </template>
         </Progress>
     </div>

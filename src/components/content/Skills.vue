@@ -2,10 +2,10 @@
     <div class="skills">
         <h1>Skills</h1>
         <div class="progress-container">
-            <SkillProgress skillName='HTML' :duration='500' :percentage='70'></SkillProgress>
-            <SkillProgress skillName='CSS' :duration='600' :percentage='65'></SkillProgress>
-            <SkillProgress skillName='Javascript' :duration='700' :percentage='40'></SkillProgress>
-            <SkillProgress skillName='Vue.js' :duration='800' :percentage='20'></SkillProgress>
+            <SkillProgress skillName='HTML' :duration='500' :percentage='100'></SkillProgress>
+            <SkillProgress skillName='CSS' :duration='1000' :percentage='100'></SkillProgress>
+            <SkillProgress skillName='Javascript' :duration='1500' :percentage='100'></SkillProgress>
+            <SkillProgress skillName='Vue.js' :duration='2000' :percentage='100'></SkillProgress>
         </div>
     </div>
 </template>
