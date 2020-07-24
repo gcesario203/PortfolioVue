@@ -66,20 +66,23 @@ export default {
         width: 100%;
         word-wrap: break-word;
         background-color: #e9e500;
-        border-radius: 5px 5px 0 0;
         color: black;
         transition: 500ms;
     }
 
     .card-content{
         font-size: 1.3rem;
-        border-radius: 0 0 5px 5px;
+        border-radius: 0px 0px 5px 5px;
+        color: black;
+        background: white;
+        margin-bottom: 10px;
+        padding: 20px;
     }
 
     .card a{
         margin-top: 0.5vh;
         color: black;
-        background-color: #eeeeec;
+        background-color: #e9e500;
         align-self: center;
         font-size: 1.5rem;
         border-radius: 8px;
@@ -89,7 +92,12 @@ export default {
     }
 
     .card a:hover{
-        background-color: #e9e500;
+        background-color:#ffff4a;
+        color: white;
+    }
+
+    .card i{
+        color: black;
     }
 
 @media (max-width: 600px) {
@@ -99,7 +107,8 @@ export default {
 
     .card{
         width: auto;
-        padding-left: 200%;
+        margin-left: 200%;
+        margin-bottom: 40px;
     }
 }
 </style>
