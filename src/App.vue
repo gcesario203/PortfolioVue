@@ -28,9 +28,25 @@ export default {
   #app{
     display: grid;
     height: 100vh;
-    grid-template-columns: 350px 1fr 60px;
+    grid-template-columns: 24vw 1fr 50px;
     grid-template-areas:
       "SideProfile Content Navigator" 
     ;
   }
+
+
+  @media (max-width: 600px) {
+    #app{
+      display: grid;
+      height: 100vh;
+      grid-template-rows: 60px 1fr 50px;
+      grid-template-columns: 1fr;
+
+      grid-template-areas: 
+        "SideProfile"
+        "Content"
+        "Navigator"
+      ;
+    }
+    }
 </style>

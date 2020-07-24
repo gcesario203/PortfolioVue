@@ -13,7 +13,7 @@ const routes = [{
     component:Skills
 },{
     name:'SobreMim',
-    path:'/sobremim',
+    path:'/',
     component:SobreMim
 },{
     name:'Projects',

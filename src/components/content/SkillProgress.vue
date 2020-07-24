@@ -24,5 +24,7 @@ export default {
 </script>
 
 <style>
-
+    .prog-bar{
+        margin:0px 0px 80px 0;
+    }
 </style>

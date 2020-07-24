@@ -1,7 +1,7 @@
 <template>
   <div class="navigator">
     <li>
-      <router-link to="/sobremim">
+      <router-link to="/">
         <i class="fa fa-home fa-2x"></i>
       </router-link>
     </li>
@@ -44,4 +44,10 @@ export default {
 .navigator a:hover{
     color: #e9e500;
 }
+
+@media (max-width: 600px) {
+  .navigator{
+    flex-direction: row;
+  }
+    }
 </style>

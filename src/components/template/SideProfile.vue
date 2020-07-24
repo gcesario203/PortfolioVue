@@ -1,8 +1,8 @@
 <template>
   <div class="side-profile">
-    <h2>Gabriel Cesario</h2>
-    <h2>Desenvolvedor web</h2>
-    <h3>Aspirante em desenvolvimento web e eterno aprendiz na jornada da vida</h3>
+    <h2 class="me">Gabriel Cesario</h2>
+    <h2 class ="me">Estagiario em desenvolvimento</h2>
+    <h3 class="me">Aspirante em desenvolvimento web e eterno aprendiz na jornada da vclassa</h3>
     <div class="social-links">
       <li>
         <a href="https://www.linkedin.com/in/gabriel-cesario-04784ab2/" target="_blank">
@@ -45,6 +45,10 @@ export default {
   justify-content: space-around;
 }
 
+.me{
+  font-size: 1.5rem;
+}
+
 .side-profile .social-links {
   display: flex;
   list-style: none;
@@ -58,8 +62,18 @@ export default {
     transition: 500ms;
 }
 
-.side-profile .social-links a:hover,
-.side-profile .social-links a:focus{
+.side-profile .social-links a:hover{
     color: #e9e500;
+}
+
+@media (max-width: 800px) {
+  .me{
+    font-size: 1rem;
+  }
+}
+@media (max-width: 600px) {
+  .me{
+    display: none;
+  }
 }
 </style>

@@ -62,6 +62,9 @@ export default {
     }
 
     .card-title{
+        padding:5px;
+        width: 100%;
+        word-wrap: break-word;
         background-color: #e9e500;
         border-radius: 5px 5px 0 0;
         color: black;
@@ -77,15 +80,26 @@ export default {
         margin-top: 0.5vh;
         color: black;
         background-color: #eeeeec;
-        width: 20%;
         align-self: center;
         font-size: 1.5rem;
         border-radius: 8px;
         text-decoration: none;
+        width: 100px;
         transition: 500ms;
     }
 
     .card a:hover{
         background-color: #e9e500;
     }
+
+@media (max-width: 600px) {
+    .repo{
+        display: block;
+    }
+
+    .card{
+        width: auto;
+        padding-left: 200%;
+    }
+}
 </style>

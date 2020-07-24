@@ -35,4 +35,9 @@ export default {
     line-height: 3rem;
     margin-bottom: 10vh;
 }
+@media (max-width: 600px) {
+  .bio{
+    padding: 0;
+  }
+    }
 </style>

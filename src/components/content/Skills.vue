@@ -27,7 +27,7 @@ export default {
     .skills h1{
         font-size: 2.5rem;
         text-align: center;
-        margin-bottom: 30vh;
+        margin-bottom: 20vh;
     }
 
     .skills .progress-container{
