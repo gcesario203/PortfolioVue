@@ -2,7 +2,7 @@
   <div class="side-profile">
     <h2 class="me">Gabriel Cesario</h2>
     <h2 class ="me">Estagiario em desenvolvimento</h2>
-    <h3 class="me">Aspirante em desenvolvimento web e eterno aprendiz na jornada da vclassa</h3>
+    <h3 class="me">Aspirante em desenvolvimento web e eterno aprendiz na jornada da vida</h3>
     <div class="social-links">
       <li>
         <a href="https://www.linkedin.com/in/gabriel-cesario-04784ab2/" target="_blank">
